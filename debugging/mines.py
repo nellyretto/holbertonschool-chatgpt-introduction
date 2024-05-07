@@ -70,7 +70,7 @@ class Minesweeper:
                     break
                 elif self.all_non_mine_revealed():
                     self.print_board(reveal=True)
-                    print("Congratulations! You won the game.")
+                    print("Congratulations! You've won the game.")
                     break
             except ValueError:
                 print("Invalid input. Please enter numbers only.")
